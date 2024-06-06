@@ -50,8 +50,9 @@ to the CSS, so that they are considered in their sizes.
 
 #### Troubleshooting and editing code
 
-Refer to script.js and comments
-helpful to console.log the path that's being created and the points observed by the script
+Refer to script.js and comments. 
+
+It's helpful to console.log the path that's being created and the points observed by the script, and see if the path is following the points in the order that you intend. 
 
 #### Workings
 
