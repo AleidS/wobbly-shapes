@@ -2,6 +2,8 @@
 
 ### Hello!
 
+*Please be aware this is a first version, and it might still have some bugs or not work for all use cases as intended, test elaborately before adding to production:)*
+
 I made this script because I saw a lot of interesting Figma designs using these shapes -> however, they are tedious to make with plain CSS.
 
 With this javascript file you can create complex curved shapes from multiple divs, with inverted borders;
