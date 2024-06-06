@@ -58,10 +58,12 @@ helpful to console.log the path that's being created and the points observed by 
 1. Collects all corner points from inner divs
 2. Picks top/left div, draws a path around it counter-clockwise
 3. For each line, it consideres if there are adjacent divs (with points on that same line), with points that are encountered sooner than a point on the current div
-4. If so, path goes around that div first, again counter-clockwise and repeat 3
+4. If so, path goes around that div first, again counter-clockwise and repeats step 3 for every line
 5. Untill path reaches the starting point
 6. Then, for each point on the line, 100 points are added to create a border radius with a bezier curve (borrowed code), either a normal or an inverted one, depending on wether the point lies on 1 div or 2. (with 2 getting an inverted border)
 7. this new path is used to draw an SVG clip-path
+
+(Refer to comments in the JS file for more precise explanations)
 
 #### Possible Future Extensions
 
