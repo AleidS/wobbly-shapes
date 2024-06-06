@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link href="CSS/style.css" rel="stylesheet">
+    <script src="script/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <meta name="description" content="Creating composite shapes with rounded borders" />
+    <meta name="keywords" content="inverted borders, library, rounded borders, composite shapes" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  </head>
+
+  <body>
+    <!--Menu and Cube container-->
+    <div class=" sliderContainer">
+      Border radius <input class='slider' id="borderRadiusSlider" title='borderRadiusSlider' type='range' min="1"
+        max="50" value="10">
+      Horizontal Margin <input class='slider' id="marginSlider" title='marginSlider' type='range' min="0" max="20"
+        value="0">
+      Position B <input class='slider' id="positionSlider" title='positionSlider' type='range' min="-10" max="220"
+        value="40">
+      Height B <input class='slider' id="heightSlider" title='heightSlider' type='range' min="-20" max="120" value="40">
+      Width F <input class='slider' id="widthSlider" title='widthSlider' type='range' min="0" max="320" value="80">
+      <!-- Rounded switch -->
+      <!-- <div>
+        Show Divs
+        <label class="switch">
+          <input title='showDivs' type="checkbox">
+          <span class="sliders round"></span>
+        </label>
+      </div> -->
+    </div>
+    <div id="main" class="shapesContainer">
+
+      <div class="roundedContainer forest">
+        <div class="A">
+          A
+        </div>
+        <div class="B">
+          B
+        </div>
+        <div class="C">
+          C
+        </div>
+      </div>
+
+      <div id="resizeMe">
+        <div class="roundedContainer new">
+          <div class="menu">
+            I'm a resizable flexbox:)
+          </div>
+          <div class="D">
+            D
+          </div>
+          <div class="E">
+            E
+          </div>
+          <div class="F ">
+            F
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+
+
+
+
+</html>
